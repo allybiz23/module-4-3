@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="script.js"></script>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Counter</title>
+</head>
+
+<body>
+  <label for="textInput">Enter Text:</label>
+  <textarea id="textInput" oninput="countWordsAndMore()"></textarea>
+
+  <div>
+    <h2>Word Count:</h2>
+    <p>Total Words: <span id="totalWords">0</span></p>
+    <p>Complicated Words: <span id="complicatedWords">0</span></p>
+    <p>Total Sentences: <span id="totalSentences">0</span></p>
+    <p>Total Characters: <span id="totalCharacters">0</span></p>
+  </div>
+</body>
+
+</html>
